@@ -1,3 +1,89 @@
 *{
-   box-sizing: border-box;
+   box-sizing: border-box !important;
+   padding: 0 !important;
+   margin:0 !important;
+   text-decoration: none !important;
+   font-family: 'Inter', sans-serif !important;
 }
+
+
+/*HEADER*/
+/*HEADER2*/
+/*CAROUSEL*/
+.Carousel{
+   
+   .carousel{
+      padding-top: 100px !important;
+      position: relative;
+      .carousel-indicators{
+         position: absolute;
+         display: inline-block;
+         margin: 0 50px !important;
+         left: 500px;
+         height: 100px;
+         button{
+            display: inline-block;
+            width: 15px;
+            height: 15px !important;
+            border-radius: 50%;
+            border: 1px solid #D9D9D9;
+         }
+         
+      }
+      .carousel-inner{
+         background-image: url('../images/image\ 6.png');
+         background-size: contain;
+         max-height: 380px !important;
+         background-repeat: no-repeat;
+         .carousel-item{
+            max-height: 530px !important;
+            .carousel-row{
+               .product-img{
+                  .trainer-img{
+                     position: relative;
+                     width:821px;
+                     height: 392px;
+                     img{
+                        position: absolute;
+                        width: 100%;
+                        left: 86px;
+                        bottom: 70px;
+                     }
+                  }
+               }
+               .product-title{
+                  position: relative;
+                  .product-content{
+                     position: absolute;
+                     top:20px;
+                     left: 150px;
+                     .product-name{
+                        font-weight: 300;
+                        font-size: 40px;
+                     }
+                     .product-de{
+                        font-weight: 300;
+                        font-size: 20px;
+                        line-height: 24.2px !important;
+                     }
+                     .btn-buy{
+                        margin-top: 30px !important;
+                        display: inline-block;
+                        width:150px;
+                        height:50px;
+                        background-color: #F8B653;
+                        font-weight: 300;
+                        font-size: 20px;
+                        color: white;
+                        text-align: center;
+                        padding-top: 10px !important;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+/*PRODUCT*/
+/*FOOTER*/
