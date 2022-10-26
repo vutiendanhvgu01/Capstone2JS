@@ -2,9 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  list-style: none;
+  text-decoration: none !important;
+  font-family: "Inter", sans-serif !important;
+  list-style: none !important;
 }
 
 /*HEADER*/
@@ -142,127 +142,127 @@
 
 /*PRODUCT*/
 /*FOOTER*/
-footer .container .footer-head {
-  width: 115% !important;
-  padding-left: 50px !important;
+.footer .container1 .footer-head {
+  padding-left: 50px;
 }
-footer .container .footer-head .help {
+.footer .container1 .footer-head .help {
   padding: 10px 10px !important;
 }
-footer .container .footer-head .help .content {
+.footer .container1 .footer-head .help .content {
   border-right: 1px solid #D9D9D9;
 }
-footer .container .footer-head .help .content h1 {
+.footer .container1 .footer-head .help .content h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-head .help .content ul {
+.footer .container1 .footer-head .help .content ul {
   display: inline-block;
   margin: 5px 0 !important;
+  margin-left: -31px !important;
 }
-footer .container .footer-head .help .content ul li {
+.footer .container1 .footer-head .help .content ul li {
   font-size: 10px;
 }
-footer .container .footer-head .order {
+.footer .container1 .footer-head .order {
   padding: 10px 10px !important;
 }
-footer .container .footer-head .order .content {
+.footer .container1 .footer-head .order .content {
   border-right: 1px solid #D9D9D9;
 }
-footer .container .footer-head .order .content h1 {
+.footer .container1 .footer-head .order .content h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-head .order .content ul {
+.footer .container1 .footer-head .order .content ul {
   display: inline-block;
   margin: 5px 0 !important;
+  margin-left: -31px !important;
 }
-footer .container .footer-head .order .content ul li {
+.footer .container1 .footer-head .order .content ul li {
   font-size: 10px;
 }
-footer .container .footer-head .register {
+.footer .container1 .footer-head .register {
   padding: 10px 10px !important;
 }
-footer .container .footer-head .register h1 {
+.footer .container1 .footer-head .register h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-head .register p {
+.footer .container1 .footer-head .register p {
   display: inline-block;
   margin: 5px 0 !important;
   font-size: 10px;
 }
-footer .container .footer-head .register a {
+.footer .container1 .footer-head .register a {
   display: block;
   color: #F50E0E;
   font-size: 10px;
 }
-footer .container .footer-body {
-  width: 115% !important;
-  padding-left: 50px !important;
+.footer .container1 .footer-body {
+  padding-left: 50px;
   background-color: #D9D9D9;
 }
-footer .container .footer-body .email {
+.footer .container1 .footer-body .email {
   padding: 10px 10px !important;
 }
-footer .container .footer-body .email .content {
+.footer .container1 .footer-body .email .content {
   border-right: 1px solid gray;
 }
-footer .container .footer-body .email .content h1 {
+.footer .container1 .footer-body .email .content h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-body .email .content p {
+.footer .container1 .footer-body .email .content p {
   display: inline-block;
   margin: 5px 0 !important;
   font-size: 10px;
 }
-footer .container .footer-body .email .content a {
+.footer .container1 .footer-body .email .content a {
   display: block;
   font-size: 10px;
   color: #F50E0E;
 }
-footer .container .footer-body .gift {
+.footer .container1 .footer-body .gift {
   padding: 10px 10px !important;
 }
-footer .container .footer-body .gift .content {
+.footer .container1 .footer-body .gift .content {
   border-right: 1px solid gray;
 }
-footer .container .footer-body .gift .content h1 {
+.footer .container1 .footer-body .gift .content h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-body .gift .content p {
+.footer .container1 .footer-body .gift .content p {
   display: inline-block;
   margin: 5px 0 !important;
   font-size: 10px;
 }
-footer .container .footer-body .gift .content a {
+.footer .container1 .footer-body .gift .content a {
   display: block;
   font-size: 10px;
   color: #F50E0E;
 }
-footer .container .footer-body .store {
+.footer .container1 .footer-body .store {
   padding: 10px 10px !important;
 }
-footer .container .footer-body .store .content {
+.footer .container1 .footer-body .store .content {
   border-right: 1px solid gray;
 }
-footer .container .footer-body .store .content h1 {
+.footer .container1 .footer-body .store .content h1 {
   font-size: 15px;
   font-weight: 600;
 }
-footer .container .footer-body .store .content p {
+.footer .container1 .footer-body .store .content p {
   display: inline-block;
   margin: 5px 0 !important;
   font-size: 10px;
 }
-footer .container .footer-body .store .content a {
+.footer .container1 .footer-body .store .content a {
   display: block;
   font-size: 10px;
   color: #F50E0E;
 }
-footer .container .footer-body .arrow .arrow-up {
+.footer .container1 .footer-body .arrow .arrow-up {
   text-align: center;
   padding-top: 40px !important;
 }

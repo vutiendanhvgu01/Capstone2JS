@@ -2,9 +2,9 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
-   text-decoration: none;
-   font-family: 'Inter', sans-serif;
-   list-style: none;
+   text-decoration: none !important;
+   font-family: 'Inter', sans-serif !important;
+   list-style: none !important;
 }
 
 /*HEADER*/
@@ -177,14 +177,12 @@
 /*PRODUCT*/
 
 /*FOOTER*/
-footer {
-   // width:auto !important;
-   .container {
+.footer {
+   
+   .container1 {
       
       .footer-head {
-         width: 115% !important;
-         padding-left: 50px !important;
-
+        padding-left: 50px;
          .help {
 
             padding: 10px 10px !important;
@@ -200,7 +198,7 @@ footer {
                ul {
                   display: inline-block;
                   margin: 5px 0 !important;
-
+                  margin-left: -31px !important;
                   li {
                      font-size: 10px;
                   }
@@ -222,7 +220,7 @@ footer {
                ul {
                   display: inline-block;
                   margin: 5px 0 !important;
-
+                  margin-left: -31px !important;
                   li {
                      font-size: 10px;
                   }
@@ -254,8 +252,8 @@ footer {
       }
 
       .footer-body {
-         width: 115% !important;
-         padding-left: 50px !important;
+        
+         padding-left: 50px;
          background-color: #D9D9D9;
 
          .email {

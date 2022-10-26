@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box !important;
-    padding: 0 !important;
-    margin:0 !important;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
     text-decoration: none !important;
     font-family: 'Inter', sans-serif !important;
     list-style: none !important;
@@ -15,137 +15,167 @@
 
 
 /*FOOTER*/
-footer{
-    .container{
-       
-       .footer-head{
-         width: 115% !important;
-         padding-left: 50px !important;
-          .help{
-             
-             padding: 10px 10px !important;
-             .content{
-                border-right: 1px solid #D9D9D9;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-                ul{
-                display: inline-block;
-                margin: 5px 0 !important;
-                   li{
-                   font-size: 10px;
-                }
-             }
-          }
-          }
-          .order{
-             padding: 10px 10px !important;
-             .content{
-                border-right: 1px solid #D9D9D9;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-             ul{
-                display: inline-block;
-                margin: 5px 0 !important;
-                li{
-                   font-size: 10px;
-                }
-             }
-          }
-          }
-          .register{
-             padding: 10px 10px !important;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-             p{
-                display: inline-block;
-                margin: 5px 0 !important;
-                font-size: 10px;
-             }
-             a{
-                display: block;
-                color:#F50E0E;
-                font-size: 10px;
-             }
-          }
-       
-       }
-       .footer-body{
-         width: 115% !important;
-         padding-left: 50px !important;
-          background-color: #D9D9D9;
-          .email{
-             padding: 10px 10px !important;
-             .content{
-                border-right: 1px solid gray;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-             p{
-                display: inline-block;
-                margin: 5px 0 !important;
-                font-size: 10px;
-             }
-             a{
-                display: block;
-                font-size: 10px;
-                color:#F50E0E;
-             }
-          }
-          }
-          .gift{
-             padding: 10px 10px !important;
-             .content{
-                border-right: 1px solid gray;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-             p{
-                display: inline-block;
-                margin: 5px 0 !important;
-                font-size: 10px;
-             }
-             a{
-                display: block;
-                font-size: 10px;
-                color:#F50E0E;
-             }
-          }
-          }
-          .store{
-             padding: 10px 10px !important;
-             .content{
-                border-right: 1px solid gray;
-             h1{
-                font-size: 15px;
-                font-weight: 600;
-             }
-             p{
-                display: inline-block;
-                margin: 5px 0 !important;
-                font-size: 10px;
-             }
-             a{
-                display:block;
-                font-size: 10px;
-                color:#F50E0E;
-             }
-          }
-          }
-          .arrow{
-             .arrow-up{
-                text-align: center;
-                padding-top: 40px !important;
-             }
-          }
-       }
-    }
- 
- }
+.footer {
+   
+   .container1 {
+      
+      .footer-head {
+        padding-left: 50px;
+         .help {
+
+            padding: 10px 10px !important;
+
+            .content {
+               border-right: 1px solid #D9D9D9;
+
+               h1 {
+                  font-size: 15px;
+                  font-weight: 600;
+               }
+
+               ul {
+                  display: inline-block;
+                  margin: 5px 0 !important;
+                  margin-left: -31px !important;
+                  li {
+                     font-size: 10px;
+                  }
+               }
+            }
+         }
+
+         .order {
+            padding: 10px 10px !important;
+
+            .content {
+               border-right: 1px solid #D9D9D9;
+
+               h1 {
+                  font-size: 15px;
+                  font-weight: 600;
+               }
+
+               ul {
+                  display: inline-block;
+                  margin: 5px 0 !important;
+                  margin-left: -31px !important;
+                  li {
+                     font-size: 10px;
+                  }
+               }
+            }
+         }
+
+         .register {
+            padding: 10px 10px !important;
+
+            h1 {
+               font-size: 15px;
+               font-weight: 600;
+            }
+
+            p {
+               display: inline-block;
+               margin: 5px 0 !important;
+               font-size: 10px;
+            }
+
+            a {
+               display: block;
+               color: #F50E0E;
+               font-size: 10px;
+            }
+         }
+
+      }
+
+      .footer-body {
+        
+         padding-left: 50px;
+         background-color: #D9D9D9;
+
+         .email {
+            padding: 10px 10px !important;
+
+            .content {
+               border-right: 1px solid gray;
+
+               h1 {
+                  font-size: 15px;
+                  font-weight: 600;
+               }
+
+               p {
+                  display: inline-block;
+                  margin: 5px 0 !important;
+                  font-size: 10px;
+               }
+
+               a {
+                  display: block;
+                  font-size: 10px;
+                  color: #F50E0E;
+               }
+            }
+         }
+
+         .gift {
+            padding: 10px 10px !important;
+
+            .content {
+               border-right: 1px solid gray;
+
+               h1 {
+                  font-size: 15px;
+                  font-weight: 600;
+               }
+
+               p {
+                  display: inline-block;
+                  margin: 5px 0 !important;
+                  font-size: 10px;
+               }
+
+               a {
+                  display: block;
+                  font-size: 10px;
+                  color: #F50E0E;
+               }
+            }
+         }
+
+         .store {
+            padding: 10px 10px !important;
+
+            .content {
+               border-right: 1px solid gray;
+
+               h1 {
+                  font-size: 15px;
+                  font-weight: 600;
+               }
+
+               p {
+                  display: inline-block;
+                  margin: 5px 0 !important;
+                  font-size: 10px;
+               }
+
+               a {
+                  display: block;
+                  font-size: 10px;
+                  color: #F50E0E;
+               }
+            }
+         }
+
+         .arrow {
+            .arrow-up {
+               text-align: center;
+               padding-top: 40px !important;
+            }
+         }
+      }
+   }
+
+}
