@@ -1,10 +1,10 @@
 * {
-  box-sizing: border-box !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-decoration: none !important;
-  font-family: "Inter", sans-serif !important;
-  list-style: none !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  list-style: none;
 }
 
 /*HEADER*/
@@ -17,20 +17,38 @@
   align-items: center;
 }
 .header .header-content .header-left {
-  margin-left: 24px !important;
-  margin-top: 10px !important;
-  margin-bottom: 8px !important;
+  margin: 10px 0 8px 24px;
 }
 .header .header-content .header-right {
   display: flex;
   color: white;
-  margin-right: 40px !important;
+  margin-right: 30px;
+  align-items: center;
 }
 .header .header-content .header-right .icon-cart {
   background-image: url(../images/image\ 8.png);
   width: 31px;
   height: 31px;
 }
+.header .header-content .header-right p {
+  display: block;
+  margin-bottom: 0;
+}
+.header .header-content .header-right .num {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  font-style: normal;
+  padding-right: 10px;
+}
+.header .header-content .header-right .item-list {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  font-style: normal;
+  padding-right: 20px;
+}
+
 /*HEADER2*/
 /*CAROUSEL*/
 .Carousel .carousel {
