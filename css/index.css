@@ -18,6 +18,8 @@
 }
 .header .header-content .header-left {
   margin-left: 24px !important;
+  margin-top: 10px !important;
+  margin-bottom: 8px !important;
 }
 .header .header-content .header-right {
   display: flex;
