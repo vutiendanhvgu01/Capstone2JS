@@ -24,6 +24,7 @@
 .header .header-content .header-right {
   display: flex;
   color: white;
+  margin-right: 40px !important;
 }
 .header .header-content .header-right .icon-cart {
   background-image: url(../images/image\ 8.png);

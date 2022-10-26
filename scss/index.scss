@@ -27,6 +27,7 @@
       .header-right {
          display: flex;
          color: white;
+         margin-right: 40px !important;
 
          .icon-cart {
             background-image: url(../images/image\ 8.png);
@@ -34,11 +35,13 @@
             height: 31px;
          }
 
-         .text-1 {}
+         .text-1 {
+            
+         }
 
-         .text-2 {}
+         
 
-         .text-3 {}
+         
       }
    }
 }
