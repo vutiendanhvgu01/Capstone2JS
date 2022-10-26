@@ -8,6 +8,26 @@
 }
 
 /*HEADER*/
+.header {
+  background: black;
+}
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-content .header-left {
+  margin-left: 24px !important;
+}
+.header .header-content .header-right {
+  display: flex;
+  color: white;
+}
+.header .header-content .header-right .icon-cart {
+  background-image: url(../images/image\ 8.png);
+  width: 31px;
+  height: 31px;
+}
 /*HEADER2*/
 /*CAROUSEL*/
 .Carousel .carousel {
