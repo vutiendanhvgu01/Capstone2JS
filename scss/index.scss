@@ -47,9 +47,9 @@
 
 /*CAROUSEL*/
 .Carousel {
-
+   
    .carousel {
-      padding-top: 100px !important;
+      padding-top: 50px !important;
       position: relative;
 
       .carousel-indicators {
@@ -71,9 +71,10 @@
 
       .carousel-inner {
          background-image: url('../images/image\ 6.png');
-         background-size: contain;
-         max-height: 380px !important;
+         background-size: cover;
+         max-height: 390px !important;
          background-repeat: no-repeat;
+         background-position: center bottom;
 
          .carousel-item {
             max-height: 530px !important;
@@ -137,11 +138,12 @@
 
 /*FOOTER*/
 footer {
+   // width:auto !important;
    .container {
-
+      
       .footer-head {
-         width: 106.6% !important;
-         padding-left: 100px !important;
+         width: 115% !important;
+         padding-left: 50px !important;
 
          .help {
 
@@ -212,8 +214,8 @@ footer {
       }
 
       .footer-body {
-         width: 106.6% !important;
-         padding-left: 100px !important;
+         width: 115% !important;
+         padding-left: 50px !important;
          background-color: #D9D9D9;
 
          .email {
