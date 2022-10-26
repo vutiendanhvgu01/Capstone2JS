@@ -34,7 +34,7 @@
 /*HEADER2*/
 /*CAROUSEL*/
 .Carousel .carousel {
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   position: relative;
 }
 .Carousel .carousel .carousel-indicators {
@@ -53,9 +53,10 @@
 }
 .Carousel .carousel .carousel-inner {
   background-image: url("../images/image 6.png");
-  background-size: contain;
-  max-height: 380px !important;
+  background-size: cover;
+  max-height: 390px !important;
   background-repeat: no-repeat;
+  background-position: center bottom;
 }
 .Carousel .carousel .carousel-inner .carousel-item {
   max-height: 530px !important;
@@ -104,8 +105,8 @@
 /*PRODUCT*/
 /*FOOTER*/
 footer .container .footer-head {
-  width: 106.6% !important;
-  padding-left: 100px !important;
+  width: 115% !important;
+  padding-left: 50px !important;
 }
 footer .container .footer-head .help {
   padding: 10px 10px !important;
@@ -159,8 +160,8 @@ footer .container .footer-head .register a {
   font-size: 10px;
 }
 footer .container .footer-body {
-  width: 106.6% !important;
-  padding-left: 100px !important;
+  width: 115% !important;
+  padding-left: 50px !important;
   background-color: #D9D9D9;
 }
 footer .container .footer-body .email {

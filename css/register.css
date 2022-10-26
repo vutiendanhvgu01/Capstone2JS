@@ -9,8 +9,8 @@
 
 /*FOOTER*/
 footer .container .footer-head {
-  width: 106.6% !important;
-  padding-left: 100px !important;
+  width: 115% !important;
+  padding-left: 50px !important;
 }
 footer .container .footer-head .help {
   padding: 10px 10px !important;
@@ -64,8 +64,8 @@ footer .container .footer-head .register a {
   font-size: 10px;
 }
 footer .container .footer-body {
-  width: 106.6% !important;
-  padding-left: 100px !important;
+  width: 115% !important;
+  padding-left: 50px !important;
   background-color: #D9D9D9;
 }
 footer .container .footer-body .email {
