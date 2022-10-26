@@ -50,6 +50,26 @@
 }
 
 /*HEADER2*/
+.nav-header .nav-content .nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+.nav-header .nav-content .nav-list .nav-item {
+  margin: 16px 25px 10px 25px;
+  position: relative;
+}
+.nav-header .nav-content .nav-list .nav-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #030303;
+  bottom: -3px;
+  left: 0;
+}
+
 /*CAROUSEL*/
 .Carousel .carousel {
   padding-top: 50px !important;
