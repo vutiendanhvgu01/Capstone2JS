@@ -54,25 +54,38 @@
   cursor: pointer;
 }
 
-/*HEADER2*/
-.nav-header .nav-content .nav-list {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
+/*NAV*/
+.nav .nav-content {
+  padding: 16px 0 10px 25px;
 }
-.nav-header .nav-content .nav-list .nav-item {
-  margin: 16px 25px 10px 25px;
+.nav .nav-content .nav-item {
+  margin-right: 25px;
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
   position: relative;
 }
-.nav-header .nav-content .nav-list .nav-item::after {
+.nav .nav-content .nav-item.active {
+  font-weight: 400;
+}
+.nav .nav-content .nav-item.active::after {
+  width: 98%;
+}
+.nav .nav-content .nav-item::after {
   content: "";
-  position: absolute;
-  width: 100%;
   height: 1px;
-  background-color: #030303;
-  bottom: -3px;
+  width: 0;
+  background: #030303;
+  position: absolute;
+  bottom: -5px;
   left: 0;
+  transition: all 0.5s;
+}
+.nav .nav-content .nav-item:hover::after {
+  width: 98%;
+  font-weight: 400;
 }
 
 /*CAROUSEL*/
