@@ -176,6 +176,7 @@
 }
 .product .product-content .title {
   text-align: center;
+  padding-top: 30px;
 }
 .product .product-content .title h2 {
   font-style: normal;
