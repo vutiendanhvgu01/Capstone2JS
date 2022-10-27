@@ -65,6 +65,48 @@
    }
 }
 
+// NAV
+.nav {
+
+   .nav-content {
+      padding: 16px 0 10px 25px;
+
+      .nav-item {
+         margin-right: 25px;
+         color: black;
+         font-style: normal;
+         font-weight: 300;
+         font-size: 20px;
+         line-height: 24px;
+         position: relative;
+
+         &.active {
+            font-weight: 400;
+
+            &::after {
+               width: 98%;
+            }
+         }
+
+         &::after {
+            content: "";
+            height: 1px;
+            width: 0;
+            background: #030303;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            transition: all .5s;
+         }
+
+         &:hover::after {
+            width: 98%;
+            font-weight: 400;
+         }
+      }
+   }
+}
+
 
 /*FOOTER*/
 .footer {
