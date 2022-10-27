@@ -70,6 +70,7 @@
   height: 50px;
   font-size: 30px;
   font-weight: 300;
+  outline: none;
   line-height: 36px;
 }
 .product-detail .container .detail-content .product-des .content .product-quantity .minus {
