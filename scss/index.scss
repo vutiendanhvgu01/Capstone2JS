@@ -19,7 +19,9 @@
       .header-left {
          margin: 10px 0 8px 24px;
 
-         img {}
+         a {
+            img {}
+         }
       }
 
       .header-right {
@@ -32,9 +34,10 @@
             background-image: url(../images/image\ 8.png);
             width: 31px;
             height: 31px;
+            cursor: pointer;
          }
 
-         p {
+         a {
             display: block;
             margin-bottom: 0;
          }
@@ -45,6 +48,8 @@
             line-height: 36px;
             font-style: normal;
             padding-right: 10px;
+            color: white;
+            cursor: pointer;
          }
 
          .item-list {
@@ -53,6 +58,8 @@
             line-height: 19px;
             font-style: normal;
             padding-right: 20px;
+            color: white;
+            cursor: pointer;
          }
       }
    }
