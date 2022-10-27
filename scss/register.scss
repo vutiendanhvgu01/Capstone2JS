@@ -1,26 +1,79 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
-    text-decoration: none !important;
-    font-family: 'Inter', sans-serif !important;
-    list-style: none !important;
- }
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   text-decoration: none !important;
+   font-family: 'Inter', sans-serif !important;
+   list-style: none !important;
+}
 
+// HEADER
+.header {
+   background: black;
 
+   .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
+      .header-left {
+         margin: 10px 0 8px 24px;
 
+         a {
+            img {}
+         }
+      }
 
+      .header-right {
+         display: flex;
+         color: white;
+         margin-right: 30px;
+         align-items: center;
 
+         .icon-cart {
+            background-image: url(../images/image\ 8.png);
+            width: 31px;
+            height: 31px;
+            cursor: pointer;
+         }
+
+         a {
+            display: block;
+            margin-bottom: 0;
+         }
+
+         .num {
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 36px;
+            font-style: normal;
+            padding-right: 10px;
+            color: white;
+            cursor: pointer;
+         }
+
+         .item-list {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19px;
+            font-style: normal;
+            padding-right: 20px;
+            color: white;
+            cursor: pointer;
+         }
+      }
+   }
+}
 
 
 /*FOOTER*/
 .footer {
-   
+
    .container1 {
-      
+
       .footer-head {
-        padding-left: 50px;
+         padding-left: 50px;
+
          .help {
 
             padding: 10px 10px !important;
@@ -37,6 +90,7 @@
                   display: inline-block;
                   margin: 5px 0 !important;
                   margin-left: -31px !important;
+
                   li {
                      font-size: 10px;
                   }
@@ -59,6 +113,7 @@
                   display: inline-block;
                   margin: 5px 0 !important;
                   margin-left: -31px !important;
+
                   li {
                      font-size: 10px;
                   }
@@ -90,7 +145,7 @@
       }
 
       .footer-body {
-        
+
          padding-left: 50px;
          background-color: #D9D9D9;
 
