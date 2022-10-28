@@ -146,10 +146,13 @@
                .product-img {
                   .trainer-img {
                      position: relative;
-                     width: 821px;
-                     height: 392px;
+                     width: 55rem;
+                     height: 25rem;
 
                      img {
+                        @media screen and (max-width: 798px) {
+                           width: 75%;
+                        }
                         position: absolute;
                         width: 100%;
                         left: 86px;

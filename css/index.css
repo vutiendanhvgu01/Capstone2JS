@@ -122,14 +122,19 @@
 }
 .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-img .trainer-img {
   position: relative;
-  width: 821px;
-  height: 392px;
+  width: 55rem;
+  height: 25rem;
 }
 .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-img .trainer-img img {
   position: absolute;
   width: 100%;
   left: 86px;
   bottom: 70px;
+}
+@media screen and (max-width: 798px) {
+  .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-img .trainer-img img {
+    width: 75%;
+  }
 }
 .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-title {
   position: relative;

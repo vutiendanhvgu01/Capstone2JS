@@ -111,12 +111,15 @@
 .product-detail {
    padding-top: 100px !important;
 
-   .container {
+   .container1 {
       padding-left: 100px !important;
 
       .detail-content {
          .product-img {
             .content {
+               @media screen and(max-width: 1000px) {
+                  margin-left: - 50px;
+               }
                width: 334px;
                height: 355px;
                padding: 109px 57px 90px 57px !important;
@@ -130,6 +133,9 @@
          }
 
          .product-des {
+            @media  screen and( max-width:769px){
+               padding-top: 50px;
+            }
             .content {
                h1 {
                   font-size: 30px;
