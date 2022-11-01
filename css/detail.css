@@ -198,14 +198,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  margin-top: 80px;
-  margin-left: 60px;
-  margin-right: 40px;
+  margin-top: 50px;
 }
 .product .product-content .product-list .product-item {
   background-color: #F8F8F8;
-  width: 384px;
-  height: 369px;
 }
 .product .product-content .product-list .product-item .product-img {
   text-align: center;
@@ -382,4 +378,16 @@
 .footer .container1 .footer-body .arrow .arrow-up {
   text-align: center;
   padding-top: 40px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .product .product-content .product-list {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .product .product-content .product-list {
+    grid-template-columns: 1fr;
+  }
 }
