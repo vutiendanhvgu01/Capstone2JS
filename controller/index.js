@@ -33,7 +33,7 @@ function renderProductItem(arrProduct) {
                     <p>${product.description.length > 50 ? product.description.substr(0, 50) + " ..." : product.description}</p>
                 </div>
                 <div class="product-btn">
-                    <a href="#" class="btn-buy">Buy now</a>
+                    <a href="./detail.html?id=${product.id}" class="btn-buy">Buy now</a>
                     <a href="#" class="btn-price">${product.price}$</a>
                 </div>
             </div>

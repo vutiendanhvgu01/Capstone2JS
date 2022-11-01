@@ -5,7 +5,7 @@ function getProductDetail(){
     console.log(urlParams.get('id'))
     var id = urlParams.get('id')
     var promise = axios({
-        url: `https://shop.cyberlearn.vn/api/Product/getbyid?id=1`,
+        url: `https://shop.cyberlearn.vn/api/Product/getbyid?id=${id}`,
         method: 'GET',
         headers:{
             TokenCyberSoft: token_cybersoft
