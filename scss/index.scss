@@ -151,7 +151,8 @@
 
                      img {
                         @media screen and (max-width: 798px) {
-                           width: 75%;
+                           width: 50%;
+                           bottom: 150px;
                         }
                         position: absolute;
                         width: 100%;
@@ -163,7 +164,9 @@
 
                .product-title {
                   position: relative;
-
+                  @media screen and (max-width: 798px) {
+                     right: 100px;
+                  }
                   .product-content {
                      position: absolute;
                      top: 20px;

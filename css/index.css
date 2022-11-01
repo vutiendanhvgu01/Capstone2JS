@@ -133,11 +133,17 @@
 }
 @media screen and (max-width: 798px) {
   .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-img .trainer-img img {
-    width: 75%;
+    width: 50%;
+    bottom: 150px;
   }
 }
 .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-title {
   position: relative;
+}
+@media screen and (max-width: 798px) {
+  .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-title {
+    right: 100px;
+  }
 }
 .Carousel .carousel .carousel-inner .carousel-item .carousel-row .product-title .product-content {
   position: absolute;
