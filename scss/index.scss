@@ -209,6 +209,7 @@
       .title {
          text-align: center;
          padding-top: 30px;
+         margin-bottom: 20px;
 
          h2 {
             font-style: normal;
@@ -219,17 +220,14 @@
       }
 
       .product-list {
+         margin-top: 50px;
          display: grid;
          grid-template-columns: 1fr 1fr 1fr;
-         gap: 50px;
-         margin-top: 80px;
-         margin-left: 60px;
-         margin-right: 40px;
+         grid-gap: 50px;
 
          .product-item {
             background-color: #F8F8F8;
-            width: 384px;
-            height: 369px;
+            padding: 0;
 
             .product-img {
                text-align: center;

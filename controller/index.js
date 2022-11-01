@@ -26,7 +26,7 @@ function renderProductItem(arrProduct) {
         contentHTML += `
             <div class="product-item">
                 <div class="product-img">
-                    <img class="w-100" height="350px" src="${product.image}" />
+                    <img class="w-100" src="${product.image}" />
                 </div>
                 <div class="product-desc">
                     <h5>${product.name}</h5>
