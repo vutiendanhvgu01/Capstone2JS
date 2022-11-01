@@ -456,3 +456,26 @@
    }
 
 }
+
+// ========================================
+// RESPONSIVE 
+@media screen and (max-width: 992px) {
+   .product {
+         .product-content {
+            .product-list {
+               grid-template-columns: 1fr 1fr;
+               grid-gap: 30px;
+            }
+         }
+      }
+}
+
+@media screen and (max-width: 576px) {
+   .product {
+         .product-content {
+            .product-list {
+               grid-template-columns: 1fr;
+            }
+         }
+      }
+}
