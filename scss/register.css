@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  font-family: "Inter", sans-serif !important;
+  list-style: none !important;
+}
+
+/*HEADER*/
+.header {
+  background: black;
+}
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-content .header-left {
+  margin: 10px 0 8px 24px;
+}
+.header .header-content .header-right {
+  display: flex;
+  color: white;
+  margin-right: 30px;
+  align-items: center;
+}
+.header .header-content .header-right .icon-cart {
+  background-image: url(../images/image\ 8.png);
+  width: 31px;
+  height: 31px;
+}
+.header .header-content .header-right p {
+  display: block;
+  margin-bottom: 0;
+}
+.header .header-content .header-right .num {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  font-style: normal;
+  padding-right: 10px;
+}
+.header .header-content .header-right .item-list {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  font-style: normal;
+  padding-right: 20px;
+}
+
+/*HEADER2*/
+.nav-header .nav-content .nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+.nav-header .nav-content .nav-list .nav-item {
+  margin: 16px 25px 10px 25px;
+  position: relative;
+}
+.nav-header .nav-content .nav-list .nav-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #030303;
+  bottom: -3px;
+  left: 0;
+}
+
+.login {
+  padding: 0px 120px 40px 120px;
+  margin-bottom: 40px;
+}
+.login h1 {
+  margin-top: 30px;
+  margin-bottom: 71px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+.login input[type=text] {
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-bottom: 5px solid #AE18E2;
+}
+.login input[type=text]::placeholder {
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.login .gender {
+  justify-content: space-between;
+  align-items: center;
+}
+.login .gender p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+}
+.login .gender .male,
+.login .gender .Female {
+  align-items: center;
+}
+.login .gender .male span,
+.login .gender .Female span {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-left: 10px;
+}
+.login .gender .male input[type=radio],
+.login .gender .Female input[type=radio] {
+  width: 50px;
+  height: 50px;
+}
+.login .gender .male input[type=radio]:checked,
+.login .gender .Female input[type=radio]:checked {
+  color: #AE18E2;
+  padding: 6px 98px 12px 87px;
+}
+.login .btn-submit {
+  margin-top: 85px;
+}
+.login .btn-submit .btn-sb {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 6px 98px 12px 87px;
+  border: 1px solid #AE18E2;
+  color: #FFFCFC;
+  background: #AE18E2;
+}
+.login .btn-submit .btn-sb:hover {
+  background: rgb(118, 118, 244);
+}
+
+/*FOOTER*/
+.footer .container1 .footer-head {
+  padding-left: 50px;
+}
+.footer .container1 .footer-head .help {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-head .help .content {
+  border-right: 1px solid #D9D9D9;
+}
+.footer .container1 .footer-head .help .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-head .help .content ul {
+  display: inline-block;
+  margin: 5px 0 !important;
+  margin-left: -31px !important;
+}
+.footer .container1 .footer-head .help .content ul li {
+  font-size: 10px;
+}
+.footer .container1 .footer-head .order {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-head .order .content {
+  border-right: 1px solid #D9D9D9;
+}
+.footer .container1 .footer-head .order .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-head .order .content ul {
+  display: inline-block;
+  margin: 5px 0 !important;
+  margin-left: -31px !important;
+}
+.footer .container1 .footer-head .order .content ul li {
+  font-size: 10px;
+}
+.footer .container1 .footer-head .register {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-head .register h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-head .register p {
+  display: inline-block;
+  margin: 5px 0 !important;
+  font-size: 10px;
+}
+.footer .container1 .footer-head .register a {
+  display: block;
+  color: #F50E0E;
+  font-size: 10px;
+}
+.footer .container1 .footer-body {
+  padding-left: 50px;
+  background-color: #D9D9D9;
+}
+.footer .container1 .footer-body .email {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-body .email .content {
+  border-right: 1px solid gray;
+}
+.footer .container1 .footer-body .email .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-body .email .content p {
+  display: inline-block;
+  margin: 5px 0 !important;
+  font-size: 10px;
+}
+.footer .container1 .footer-body .email .content a {
+  display: block;
+  font-size: 10px;
+  color: #F50E0E;
+}
+.footer .container1 .footer-body .gift {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-body .gift .content {
+  border-right: 1px solid gray;
+}
+.footer .container1 .footer-body .gift .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-body .gift .content p {
+  display: inline-block;
+  margin: 5px 0 !important;
+  font-size: 10px;
+}
+.footer .container1 .footer-body .gift .content a {
+  display: block;
+  font-size: 10px;
+  color: #F50E0E;
+}
+.footer .container1 .footer-body .store {
+  padding: 10px 10px !important;
+}
+.footer .container1 .footer-body .store .content {
+  border-right: 1px solid gray;
+}
+.footer .container1 .footer-body .store .content h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer .container1 .footer-body .store .content p {
+  display: inline-block;
+  margin: 5px 0 !important;
+  font-size: 10px;
+}
+.footer .container1 .footer-body .store .content a {
+  display: block;
+  font-size: 10px;
+  color: #F50E0E;
+}
+.footer .container1 .footer-body .arrow .arrow-up {
+  text-align: center;
+  padding-top: 40px !important;
+}
