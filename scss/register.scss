@@ -6,9 +6,23 @@
    font-family: 'Inter', sans-serif !important;
    list-style: none !important;
 }
+<<<<<<< HEAD
+=======
 
+// HEADER
+.header {
+   background: black;
+>>>>>>> 1bca77a37d3f1f95a81b413d75ef0c7dd0fe7841
 
+   .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
+      .header-left {
+         margin: 10px 0 8px 24px;
+
+<<<<<<< HEAD
 /*HEADER*/
 .header {
    background: black;
@@ -149,10 +163,95 @@
                color: #AE18E2;
                padding: 6px 98px 12px 87px;
             }
+=======
+         a {
+            img {}
+>>>>>>> 1bca77a37d3f1f95a81b413d75ef0c7dd0fe7841
          }
       }
 
+      .header-right {
+         display: flex;
+         color: white;
+         margin-right: 30px;
+         align-items: center;
 
+         .icon-cart {
+            background-image: url(../images/image\ 8.png);
+            width: 31px;
+            height: 31px;
+            cursor: pointer;
+         }
+
+         a {
+            display: block;
+            margin-bottom: 0;
+         }
+
+         .num {
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 36px;
+            font-style: normal;
+            padding-right: 10px;
+            color: white;
+            cursor: pointer;
+         }
+
+         .item-list {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19px;
+            font-style: normal;
+            padding-right: 20px;
+            color: white;
+            cursor: pointer;
+         }
+      }
+   }
+}
+
+// NAV
+.nav {
+
+   .nav-content {
+      padding: 16px 0 10px 25px;
+
+      .nav-item {
+         margin-right: 25px;
+         color: black;
+         font-style: normal;
+         font-weight: 300;
+         font-size: 20px;
+         line-height: 24px;
+         position: relative;
+
+         &.active {
+            font-weight: 400;
+
+            &::after {
+               width: 98%;
+            }
+         }
+
+         &::after {
+            content: "";
+            height: 1px;
+            width: 0;
+            background: #030303;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            transition: all .5s;
+         }
+
+         &:hover::after {
+            width: 98%;
+            font-weight: 400;
+         }
+      }
+   }
+}
 
    }
    .btn-submit {
