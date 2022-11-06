@@ -1,3 +1,5 @@
+@import url("./header.scss");
+@import url("./footer.scss");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -84,6 +86,115 @@
 .nav .nav-content .nav-item:hover::after {
   width: 98%;
   font-weight: 400;
+}
+
+.login {
+  padding: 0px 120px 40px 120px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .login {
+    padding: 20px 0px;
+  }
+}
+.login h1 {
+  margin-top: 30px;
+  margin-bottom: 71px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+.login input[type=text] {
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-bottom: 5px solid #AE18E2;
+}
+.login input[type=text]::-moz-placeholder {
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.login input[type=text]:-ms-input-placeholder {
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.login input[type=text]::placeholder {
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}
+.login .gender {
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .login .gender {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.login .gender p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+}
+.login .gender .male,
+.login .gender .Female {
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .login .gender .male,
+.login .gender .Female {
+    margin-top: 20px;
+  }
+}
+.login .gender .male span,
+.login .gender .Female span {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-left: 10px;
+}
+.login .gender .male input[type=radio],
+.login .gender .Female input[type=radio] {
+  width: 50px;
+  height: 50px;
+}
+.login .gender .male input[type=radio]:checked,
+.login .gender .Female input[type=radio]:checked {
+  color: #AE18E2;
+  padding: 6px 98px 12px 87px;
+}
+@media screen and (max-width: 768px) {
+  .login .gender .male input[type=radio],
+.login .gender .Female input[type=radio] {
+    width: 30px;
+    height: 30px;
+  }
+}
+.login .btn-submit {
+  margin-top: 85px;
+}
+.login .btn-submit .btn-sb {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 6px 98px 12px 87px;
+  border: 1px solid #AE18E2;
+  color: #FFFCFC;
+  background: #AE18E2;
+}
+.login .btn-submit .btn-sb:hover {
+  background: rgb(118, 118, 244);
 }
 
 /*FOOTER*/

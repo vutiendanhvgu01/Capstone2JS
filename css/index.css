@@ -93,7 +93,7 @@
   margin-bottom: 46px;
 }
 .Carousel .carousel {
-  padding-top: 50px !important;
+  padding-top: 75px !important;
   position: relative;
 }
 .Carousel .carousel .carousel-indicators {
@@ -113,7 +113,7 @@
 .Carousel .carousel .carousel-inner {
   background-image: url("../images/image 6.png");
   background-size: cover;
-  max-height: 390px !important;
+  max-height: 500px !important;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
